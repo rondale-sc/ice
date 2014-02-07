@@ -1,6 +1,6 @@
 # ICE
 
-What happened to the dinosaurs?  THE ICE AGE!!!!!!
+![mr freeeze](http://i.imgur.com/3tOZXik.gif)
 
 # Authors
 
