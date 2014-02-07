@@ -1,6 +1,5 @@
 require "ice/version"
+require "ice"
 
 module Ice
-  class Baby
-  end
 end
