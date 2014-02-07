@@ -13,6 +13,8 @@ void Init_ice() {
 }
 
 VALUE method_ice_chill() {
-	printf("Tonight hell freezes over!");
-	return Qnil;
+	const char *msg_str = "Tonight hell freezes over!";
+	VALUE msg = rb_str_new2(msg_str);
+	printf("%s\n", msg_str);
+	return msg;
 }

@@ -5,7 +5,8 @@ describe Ice do
   describe '.chill(filename)' do
 
     it 'exists' do
-      hex = Ice.chill()
+      msg = Ice.chill()
+      expect(msg).to eq('Tonight hell freezes over!')
     end
 
     context 'given no filename' do

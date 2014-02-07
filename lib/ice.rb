@@ -1,5 +1,5 @@
 require "ice/version"
-require "ice"
+require_relative "./ice.bundle"
 
 module Ice
 end
